@@ -16,8 +16,6 @@ export function TodoForm({ addTodo, todos, setFilteredTodos }) {
    * @param {string} title 待办事项的标题
    */
   const filter = title => {
-    // debug output
-    console.log('filter', title);
     // 筛选包含输入框内容的待办事项
     const newTodos = todos.filter(todo => todo.title.includes(title));
     // 更新展示列表
@@ -31,7 +29,7 @@ export function TodoForm({ addTodo, todos, setFilteredTodos }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form style={{ marginBottom: '0.5rem' }} onSubmit={handleSubmit}>
       <input
         className="input"
         placeholder="创建待办事项..."

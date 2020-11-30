@@ -87,6 +87,8 @@ export function App() {
 
   return (
     <div className={styles.page}>
+      <h1 className={styles.title}>待办清单</h1>
+      <h2 className={styles.subtitle}>To-Do List</h2>
       <div className={styles.container}>
         <TodoForm addTodo={addTodo} todos={todos} setFilteredTodos={setFilteredTodos} />
         <div className={styles.list}>
