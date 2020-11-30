@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "build:demo": "PUBLIC_URL=$npm_package_name npm run build",
+    "build": "bash script/build.sh",
+    "build:demo": "TARGET=DEMO npm run build",
     "push": "bash script/push.sh",
     "pack": "npm run build && npm run push",
     "pack:demo": "npm run build:demo && npm run push",
