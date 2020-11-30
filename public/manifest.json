@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "待办清单 - Todo List",
+  "name": "待办清单 - Todo List - 九章算法课程项目",
   "icons": [
     {
       "src": "favicon.ico",
