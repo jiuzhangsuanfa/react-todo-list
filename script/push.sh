@@ -3,7 +3,7 @@ cd build
 pwd
 tee > ./Dockerfile <<-'EOF'
 FROM iinfinity/nginx
-COPY ["./*", "/app/"]
+COPY ["./", "/app/"]
 RUN ls /app
 RUN pwd
 EOF
