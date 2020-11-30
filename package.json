@@ -15,8 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:demo": "PUBLIC_URL=$npm_package_name npm run build",
-    "push": "npm run build && bash script/push.sh",
-    "push:demo": "npm run build:demo && bash script/push.sh",
+    "push": "bash script/push.sh",
+    "pack": "npm run build && npm run push",
+    "pack:demo": "npm run build:demo && npm run push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
