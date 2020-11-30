@@ -1,6 +1,5 @@
 #!/bin/bash
 cd build
-pwd
 tee > ./Dockerfile <<-'EOF'
 FROM iinfinity/nginx
 COPY ["./", "/app/"]
