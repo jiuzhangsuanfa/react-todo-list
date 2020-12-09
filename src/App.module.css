@@ -1,0 +1,29 @@
+.page {
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  width           : 100%;
+  min-height      : 100vh;
+  background-color: #2f3542;
+  color           : #fff;
+}
+
+.container {
+  display       : flex;
+  flex-direction: column;
+  min-width     : 368px;
+}
+
+.title {
+  margin     : 3rem auto 0 auto;
+  color      : white;
+  font-size  : 1.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin     : 0 auto 1rem auto;
+  color      : gainsboro;
+  font-size  : small;
+  font-weight: lighter;
+}
