@@ -1,6 +1,6 @@
 # 待办清单 Todo List
 
-[点击查看 Demo](https://demo.don.red/web-react-01-todo-list)，如果同学有新的 idea，可以提交 PR 哦~
+[点击查看 Demo](https://demo.don.red/todo-list)，如果同学有新的 idea，可以提交 PR 哦~
 
 ## 功能
 
