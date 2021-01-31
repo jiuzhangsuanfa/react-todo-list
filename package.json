@@ -1,6 +1,6 @@
 {
-  "name": "web-react-01-todo-list",
-  "version": "0.1.0",
+  "name": "react-todo-list",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
@@ -35,5 +35,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "[点击查看 Demo](https://demo.don.red/todo-list)，如果同学有新的 idea，可以提交 PR 哦~",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiuzhangsuanfa/react-todo-list.git"
+  },
+  "keywords": [
+    "react",
+    "todo",
+    "jiuzhang"
+  ],
+  "author": "jiuzhang",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jiuzhangsuanfa/react-todo-list/issues"
   }
 }
